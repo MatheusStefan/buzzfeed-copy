@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: 'Dela Gothic One', sans-serif;
+  box-sizing: border-box;
+
+}
+
+h1 {
+  color: white;
+}
+
+body {
+  background-color: #1f1147;
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+  background-color: #FFF;
+}
+
+@media screen and (min-width: 982px) {
+  .content {
+      max-width: 982px;
+      height: auto;
+      margin: 1rem auto;
+      border-radius: 1rem;
+  }
+}
